@@ -1,0 +1,399 @@
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'Courgette';
+    src: url('../fonts/Courgette/Courgette-Regular.ttf');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico/Pacifico.ttf');
+}
+
+body {
+    margin: 0;
+    background-color: #2b1100;
+    background-image: url('./../../images/Herbe-ciel-soleil.jpg');
+    background-size: 100vw 100vw;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    height: 15vw;
+    float: left;
+    text-shadow: -2px -2px 3px rgba(150, 150, 150, 1);
+    color: antiquewhite;
+    text-align: center;
+    font-family: Courgette;
+}
+
+h1 {
+    margin: 0;
+    line-height: 7vw;
+    font-size: 5vw;
+}
+
+h2 {
+    margin: 0;
+    line-height: 2vw;
+    font-size: 1.5vw;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+#legende {
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+    color: teal;
+    line-height: 3vw;
+    font-family: Courgette;
+    font-size: 2vw;
+}
+
+#legende h3 {
+    display: none;
+}
+
+#content {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to bottom, transparent 0%,transparent 85%,#2b1100 85%,#2b1100 100%);
+}
+
+#arbre {
+    position: absolute;
+    top: 27vw;
+    width: 80vw;
+    left: 9.5vw;
+    z-index: 10;
+}
+
+#terre {
+    margin: 0;
+    float: left;
+    width: 100%;
+    margin-top: 83vw;
+}
+
+#centres_interet p, #savoir_plus p {
+    text-shadow: -2px -2px 3px rgba(150, 150, 150, 1);
+    color: antiquewhite;
+    text-align: center;
+    font-family: Courgette;
+    font-size: 2vw;
+    margin: 0;
+    display: none;
+}
+
+#macbook {
+    position: absolute;
+    top: 84vw;
+    left: 12vw;
+    z-index: 20;
+}
+#macbook img {
+    width: 15vw;
+}
+
+#livre {
+    position: absolute;
+    top: 88vw;
+    left: 32vw;
+    z-index: 20;
+}
+#livre img {
+    width: 8vw;  
+}
+
+#microscope {
+    position: absolute;
+    top: 83vw;
+    left: 59vw;
+    z-index: 20;
+}
+#microscope img {
+    width: 5.5vw;
+}
+
+#manuscrit {
+    position: absolute;
+    top: 87vw;
+    left: 70vw;
+    z-index: 20;
+}
+#manuscrit img {
+    width: 10vw;
+}
+
+#linkedin {
+    position: absolute;
+    top: 101vw;
+    left: 10vw;
+    z-index: 30;
+    cursor: pointer;
+}
+#linkedin img {
+    transform: rotate(-5deg);
+    width: 10vw;
+}
+
+#tresor {
+    position: absolute;
+    top: 99.5vw;
+    left: 81vw;
+    z-index: 20;
+    cursor: pointer;
+}
+#tresor img {
+    width: 7vw;
+}
+
+#contact {
+    position: absolute;
+    top: 113vw;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3vw;
+    z-index: 20;
+}
+#contact p {
+    color: white;
+    font-family: arial;
+}
+#contact input {
+    width: 30.5vw;
+    height: 2.5vw;
+    text-align: center;
+    border-radius: 5px;
+    border: 0;
+    font-size: 1.5vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}
+#contact button {
+    width: 10vw;
+    height: 2.75vw;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    border: 0;
+    background-color: orange;
+    color: antiquewhite;
+    font-family: Courgette;
+    cursor: pointer;
+}
+
+#contact textarea {
+    margin: 0;
+    margin-left: -1vw;
+    width: 30vw;
+    max-width: 30vw;
+    height: 10vw;
+    text-align: left;
+    border-radius: 5px;
+    border: 0;
+    font-size: 1.5vw;
+    font-family: arial;
+    margin-bottom: 1vw;
+}
+
+#recaptcha {
+    width: 22vw;
+    margin-left: 39vw;
+    margin-bottom: 1vw;
+}
+
+#contact_hidden {
+    margin-top: -1.2vw;
+    display: none;
+}
+
+#error {
+    margin: 0;
+    margin-bottom: 1vw;
+    text-align: center;
+    color: antiquewhite;
+    font-family: arial;
+    font-size: 1.5vw;
+    height: 1.5vw;
+}
+
+#feuilles {
+    position: absolute;
+    top: 5vw;
+    height: 7vw;
+    width: 100%;
+}
+#feuilles img {
+    width: 5vw;
+}
+#feuilles div {
+    margin: 0;
+    z-index: 20;
+    height: 6.85vw;
+}
+#feuilles p {
+    position: relative;
+    top: -4.2vw;
+    color: antiquewhite;
+    text-align: center;
+    font-family: Courgette;
+    font-size: 1.5vw;
+    margin: 0;
+    z-index: 30;
+}
+
+#f_1 {
+    position: absolute;
+    top: 19vw;
+    left: 5vw;
+    transform: rotate(-35deg);
+}
+
+#f_2 {
+    position: absolute;
+    top: 15vw;
+    left: 23.5vw;
+}
+
+#f_3 {
+    position: absolute;
+    top: 19.5vw;
+    left: 36.3vw;
+    transform: rotate(-5deg);
+}
+
+#f_4 {
+    position: absolute;
+    top: 18vw;
+    left: 53.3vw;
+}
+
+#f_5 {
+    position: absolute;
+    top: 18vw;
+    left: 69.2vw;
+    transform: rotate(-10deg);
+    cursor: pointer;
+}
+
+#f_6 {
+    position: absolute;
+    top: 21vw;
+    left: 82.7vw;
+    transform: rotate(-49deg);
+    cursor: pointer;
+}
+
+#f_7 {
+    position: absolute;
+    top: 21.2vw;
+    left: 19.5vw;
+    transform: rotate(-87deg);
+}
+
+#f_8 {
+    position: absolute;
+    top: 20.6vw;
+    left: 28.5vw;
+    transform: rotate(82deg);
+}
+
+#f_9 {
+    position: absolute;
+    top: 21vw;
+    left: 12vw;
+    transform: rotate(33deg);
+}
+
+#f_10 {
+    position: absolute;
+    top: 26vw;
+    left: 4.6vw;
+    transform: rotate(-108deg);
+}
+
+#f_11 {
+    position: absolute;
+    top: 31.3vw;
+    left: 8.3vw;
+    transform: rotate(-137deg);
+}
+
+#f_12 {
+    position: absolute;
+    top: 25.3vw;
+    left: 16.3vw;
+    transform: rotate(58deg);
+}
+
+#f_13 {
+    position: absolute;
+    top: 30.3vw;
+    left: 28vw;
+    transform: rotate(101deg);
+}
+
+#f_14 {
+    position: absolute;
+    top: 36.3vw;
+    left: 14.7vw;
+    transform: rotate(-145deg);
+}
+
+#f_15 {
+    position: absolute;
+    top: 26.3vw;
+    left: 33vw;
+    transform: rotate(-102deg);
+}
+
+#f_16 {
+    position: absolute;
+    top: 24.8vw;
+    left: 41.6vw;
+    transform: rotate(74deg);
+}
+
+#f_17 {
+    position: absolute;
+    top: 24.8vw;
+    left: 48.6vw;
+    transform: rotate(-74deg);
+}
+
+#f_18 {
+    position: absolute;
+    top: 25.7vw;
+    left: 57.9vw;
+    transform: rotate(82deg);
+}
+
+#f_19 {
+    position: absolute;
+    top: 25.7vw;
+    left: 66.2vw;
+    transform: rotate(-108deg);
+    cursor: pointer;
+}
+
+#f_20 {
+    position: absolute;
+    top: 23.7vw;
+    left: 75.4vw;
+    transform: rotate(76deg);
+    cursor: pointer;
+}
+
+#f_21 {
+    position: absolute;
+    top: 22.7vw;
+    left: 91vw;
+    transform: rotate(69deg);
+    cursor: pointer;
+}

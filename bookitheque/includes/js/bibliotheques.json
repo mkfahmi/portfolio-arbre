@@ -1,0 +1,277 @@
+[
+  {
+    "id":"amelie",
+    "Nom":"Bibliothèque Amélie",
+    "Adresse":"164 Rue de Grenelle, 75007 Paris"
+  },
+  {
+    "id":"andre_malraux",
+    "Nom":"Bibliothèque André Malraux",
+    "Adresse":"Espace d'Anglemont, 35 Place Charles de Gaulle, 93260 Les Lilas"
+  },
+  {
+    "id":"arthur_rimbaud",
+    "Nom":"Bibliothèque Arthur Rimbaud",
+    "Adresse":"2 Place Baudoyer, 75004 Paris"
+  },
+  {
+    "id":"batignolles",
+    "Nom":"Bibliothèque Batignolles ",
+    "Adresse":"18 Rue des Batignolles, 75017 Paris"
+  },
+  {
+    "id":"andree_chedid",
+    "Nom":"Bibliothèque Andrée Chedid",
+    "Adresse":"36 Rue Emeriau, 75015 Paris"
+  },
+  {
+    "id":"benjamin_rabier",
+    "Nom":"Bibliothèque Benjamin Rabier",
+    "Adresse":"141 Avenue de Flandre 75019 Paris"
+  },
+  {
+    "id":"brochant",
+    "Nom":"Bibliothèque Brochant (Colette Vivier)",
+    "Adresse":"6 Rue Fourneyron, 75017 Paris"
+  },
+  {
+    "id":"buffon",
+    "Nom":"Bibliothèque Buffon",
+    "Adresse":"15 Rue Buffon, 75005 Paris"
+  },
+  {
+    "id":"chaptal",
+    "Nom":"Bibliothèque Chaptal",
+    "Adresse":"26 rue Chaptal 75009 Paris"
+  },
+  {
+    "id":"chateau_d_eau",
+    "Nom":"Bibliothèque Château d'eau",
+    "Adresse":"72 Rue du Faubourg Saint-Martin, 75010 Paris"
+  },
+  {
+    "id":"clignancourt",
+    "Nom":"Bibliothèque Clignancourt",
+    "Adresse":"2 Rue Francis de Croisset Université Diderot Paris 7 75018 Paris"
+  },
+  {
+    "id":"courcelles",
+    "Nom":"Bibliothèque Courcelles",
+    "Adresse":"17 Ter Avenue Beaucour, 75008 Paris"
+  },
+  {
+    "id":"couronnes",
+    "Nom":"Bibliothèque Couronnes",
+    "Adresse":"66 Rue des Couronnes, 75020 Paris"
+  },
+  {
+    "id":"crimee",
+    "Nom":"Bibliothèque Crimée",
+    "Adresse":"44 Rue Petit, 75019 Paris"
+  },
+  {
+    "id":"diderot",
+    "Nom":"Bibliothèque Diderot",
+    "Adresse":"42 Avenue Daumesnil, 75012 Paris"
+  },
+  {
+    "id":"drouot",
+    "Nom":"Bibliothèque Drouot",
+    "Adresse":"11 rue Drouot 75009 Paris"
+  },
+  {
+    "id":"edmond_rostand",
+    "Nom":"Bibliothèque Edmond Rostand",
+    "Adresse":"11 Rue Nicolas Chuquet, 75017 Paris"
+  },
+  {
+    "id":"europe",
+    "Nom":"Bibliothèque Europe",
+    "Adresse":"3 Rue de Lisbonne, 75008 Paris"
+  },
+  {
+    "id":"faidherbe",
+    "Nom":"Bibliothèque Faidherbe",
+    "Adresse":"18-20 Rue Faidherbe, 75011 Paris"
+  },
+  {
+    "id":"fessart",
+    "Nom":"Bibliothèque Fessart",
+    "Adresse":"6 Rue Fessart, 75019 Paris"
+  },
+  {
+    "id":"flandre",
+    "Nom":"Bibliothèque Flandre",
+    "Adresse":"41 Avenue de Flandre, 75019 Paris"
+  },
+  {
+    "id":"francois_villon",
+    "Nom":"Bibliothèque François Villon",
+    "Adresse":"81 Boulevard de la Villette, 75010 Paris"
+  },
+  {
+    "id":"georges_brassens",
+    "Nom":"Bibliothèque Georges Brassens",
+    "Adresse":"38 Rue Gassendi, 75014 Paris"
+  },
+  {
+    "id":"glaciere",
+    "Nom":"Bibliothèque Glacière",
+    "Adresse":"132 Rue de la Glacière, 75013 Paris"
+  },
+  {
+    "id":"goutte_d_or",
+    "Nom":"Bibliothèque Goutte d'Or",
+    "Adresse":"2 Rue Fleury 75018 Paris"
+  },
+  {
+    "id":"gutenberg",
+    "Nom":"Bibliothèque Gutenberg",
+    "Adresse":"8 Rue de la Montagne d'Aulas, 75015 Paris"
+  },
+  {
+    "id":"herge",
+    "Nom":"Bibliothèque Hergé",
+    "Adresse":"2 Rue du Département, 75019 Paris"
+  },
+  {
+    "id":"heure_joyeuse",
+    "Nom":"Bibliothèque Heure Joyeuse",
+    "Adresse":"3 Allée Pierre de Coubertin, 78011 Versailles"
+  },
+  {
+    "id":"isle_saint_louis",
+    "Nom":"Bibliothèque Isle Saint Louis",
+    "Adresse":"21 Rue Saint-Louis en l’Ile 75004 Paris"
+  },
+  {
+    "id":"italie",
+    "Nom":"Bibliothèque Italie",
+    "Adresse":"213 Boulevard Vincent Auriol, 75013 Paris"
+  },
+  {
+    "id":"jean_pierre_melville",
+    "Nom":"Bibliothèque Jean-Pierre Melville",
+    "Adresse":"79 Rue Nationale, 75013 Paris"
+  },
+  {
+    "id":"la_fontaine",
+    "Nom":"Bibliothèque La Fontaine",
+    "Adresse":"Rue de la Fontaine, 94470 Boissy-Saint-Léger"
+  },
+  {
+    "id":"lancry",
+    "Nom":"Bibliothèque Lancry",
+    "Adresse":"11 Rue de Lancry, 75010 Paris"
+  },
+  {
+    "id":"louvre",
+    "Nom":"Bibliothèque Louvre",
+    "Adresse":"4 Place du Louvre, 75001 Paris"
+  },
+  {
+    "id":"marguerite_audoux",
+    "Nom":"Bibliothèque Marguerite Audoux",
+    "Adresse":"10 Rue Portefoin, 75003 Paris"
+  },
+  {
+    "id":"marguerite_yourcenar",
+    "Nom":"Bibliothèque Marguerite Yourcenar",
+    "Adresse":"41 Rue d'Alleray, 75015 Paris"
+  },
+  {
+    "id":"maurice_genevoix",
+    "Nom":"Bibliothèque Maurice Genevoix",
+    "Adresse":"19 Rue Tristan Tzara, 75018 Paris"
+  },
+  {
+    "id":"mediatheque_musicale_de_paris",
+    "Nom":"Médiathèque Musicale de Paris",
+    "Adresse":"Forum des Halles, 8 Impasse Saint-Eustache, 75001 Paris"
+  },
+  {
+    "id":"mortier",
+    "Nom":"Bibliothèque Mortier",
+    "Adresse":"109 Boulevard Mortier, 75020 Paris"
+  },
+  {
+    "id":"mouffetard",
+    "Nom":"Bibliothèque Mouffetard",
+    "Adresse":"76 Rue Mouffetard, 75005 Paris"
+  },
+  {
+    "id":"musset",
+    "Nom":"Bibliothèque Musset",
+    "Adresse":"20 Rue de Musset, 75016 Paris"
+  },
+  {
+    "id":"parmentier",
+    "Nom":"Bibliothèque Parmentier",
+    "Adresse":"20 Avenue Parmentier, 75011 Paris"
+  },
+  {
+    "id":"picpus",
+    "Nom":"Bibliothèque Picpus (Hélène Berr)",
+    "Adresse":"70 Rue de Picpus, 75012 Paris"
+  },
+  {
+    "id":"pace_des_fetes",
+    "Nom":"Bibliothèque Place des Fêtes",
+    "Adresse":"18 Rue Janssen, 75019 Paris"
+  },
+  {
+    "id":"plaisance",
+    "Nom":"Bibliothèque Plaisance (Aimé Césaire)",
+    "Adresse":"5 Rue de Ridder 75014 Paris"
+  },
+  {
+    "id":"porte_montmatre",
+    "Nom":"Bibliothèque Porte Montmartre",
+    "Adresse":"2 Rue Eugène Fournière, 75018 Paris"
+  },
+  {
+    "id":"port_royal",
+    "Nom":"Bibliothèque Port-Royal (Rainer Maria Rilke)",
+    "Adresse":"88 Ter Boulevard de Port-Royal 75005 Paris"
+  },
+  {
+    "id":"saint_eloi",
+    "Nom":"Bibliothèque Saint-Eloi",
+    "Adresse":"23 Rue du Colonel Rozanoff, 75012 Paris"
+  },
+  {
+    "id":"saint_simon",
+    "Nom":"Bibliothèque Saint-Simon",
+    "Adresse":"116 Rue de Grenelle, 75007 Paris"
+  },
+  {
+    "id":"sorbier",
+    "Nom":"Bibliothèque Sorbier",
+    "Adresse":"17 Rue Sorbier, 75020 Paris"
+  },
+  {
+    "id":"trocadero",
+    "Nom":"Bibliothèque Trocadéro (Germaine Tillion)",
+    "Adresse":"6 Rue du Commandant Schloesing, 75116 Paris"
+  },
+  {
+    "id":"",
+    "Nom":"Bibliothèque Valeyre",
+    "Adresse":"24 Rue de Rochechouart, 75009 Paris"
+  },
+  {
+    "id":"vandamme",
+    "Nom":"Bibliothèque Vandamme",
+    "Adresse":"80 Avenue du Maine, 75014 Paris"
+  },
+  {
+    "id":"vaugirard",
+    "Nom":"Bibliothèque Vaugirard",
+    "Adresse":"154 Rue Lecourbe, 75015 Paris"
+  },
+  {
+    "id":"vivienne",
+    "Nom":"Bibliothèque Vivienne (Charlotte Delbo)",
+    "Adresse":"2 Passage des Petits Pères, 75002 Paris"
+  }
+]

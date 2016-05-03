@@ -1,0 +1,317 @@
+@font-face {
+font-family: 'Lobster Two';
+src: url('../fonts/LobsterTwo-Italic.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Ubuntu';
+src: url('../fonts/Ubuntu-Regular.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu';
+}
+
+.first_header {
+    width: 100%;
+    height: 150px;
+    color: #A52A2A;
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+}
+
+.new_header {
+    width: 100%;
+    height: 150px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    background-color: #A52A2A;
+    -webkit-animation: myheader 3s;
+}
+
+@-webkit-keyframes myheader {
+    from {color: #A52A2A; background-color: white;}
+    to {color: white; background-color: #A52A2A;}
+}
+
+.first_title {
+    font-family: 'Lobster Two';
+    font-size: 85px;
+    margin: 40;
+    line-height: 100px;
+}
+
+.new_title {
+    font-family: 'Lobster Two';
+    font-size: 45px;
+    margin: 0;
+    line-height: 100px; 
+    -webkit-animation: mytitle 3s;
+}
+
+@-webkit-keyframes mytitle {
+    from {font-size: 85px; margin: 40;}
+    to {font-size: 45px; margin: 0;}
+}
+
+.first_description {
+    font-size: 50px;
+    font-family: 'Lobster Two';
+    margin:0;
+}
+
+.new_description {
+    font-size: 25px;
+    font-family: 'Lobster Two';
+    -webkit-animation: mydescription 3s;
+    margin: 0;
+}
+
+@-webkit-keyframes mydescription {
+    from {font-size: 50px;}
+    to {font-size: 25px;}
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: #A52A2A;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-family: 'Lobster Two';
+    font-size: 25px;
+}
+
+.search_bar_class {
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Ubuntu';
+}
+
+.new_search_bar_class {
+    text-align: center;
+    margin-top: 50px;
+    -webkit-animation: mymove 3s;
+    font-family: 'Ubuntu';
+}
+
+@-webkit-keyframes mymove {
+    from {margin-top: 200px;}
+    to {margin-top: 50px;}
+}
+
+#search, #auteur {
+    display: inline-block;
+    font-family: 'Ubuntu';
+}
+
+#plus {
+    display: none;
+    margin-top: 5px;
+    font-family: 'Ubuntu';
+}
+
+#search_language {
+    margin-top: 5px;
+    font-family: 'Ubuntu';
+}
+
+#search_go, #search_plus, .button_suite, .button_amazon, .button_bibli {
+    -webkit-transition: background-color 0.1s linear 0s;
+    -o-transition: background-color 0.1s linear 0s;
+    -moz-transition: background-color 0.1s linear 0s;
+    font-family: 'Ubuntu';
+}
+
+#search_go:hover {
+    background-color: #CD5C5C;
+}
+
+#search_plus:hover {
+    background-color: #CD5C5C;
+}
+
+#plus {
+    margin: 0;
+}
+
+#titre_livre {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#contenu {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#left {
+    width: 58%;
+    float: left;
+}
+
+#right {
+    text-align: center;
+    width: 38%;
+    float: right;
+}
+
+#amazon {
+    display: none;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#ebooks_list {
+    margin-bottom: 20px;
+}
+#ebooks_list img {
+    height: 290px;
+    width: auto;
+    max-width: 490px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+#ebooks_list a {
+    text-decoration: none;
+    color: white;
+}
+
+#networks a, #fb a {
+    fill: white;
+    text-decoration: none;
+}
+
+#networks a:hover, #fb a:hover {
+    fill: white;
+    text-decoration: none;
+}
+
+#networks svg {
+    fill: white;
+    -webkit-transition: fill 0.2s linear 0s;
+    transition: fill 0.2s linear 0s;
+    -moz-transition: fill 0.2s linear 0s;
+    -o-transition: fill 0.2s linear 0s;
+}
+#networks svg:hover {
+    fill: #FC5D5D;
+}
+
+#under_amazon {
+    /*padding-bottom: 5px;*/
+}
+
+.input {
+    height: 25px;
+    width: 200px;
+    margin-bottom: 2px;
+}
+
+.bibliotheque {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    float: left;
+    padding-left: 10px;
+}
+
+.bibli {
+    float: left;
+}
+
+.slideshow_infos {
+    position: absolute;
+    display: none;
+    bottom: 0px;
+    max-height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: rgb(165, 42, 42);
+}
+
+.slideshow_infos:hover {
+  background-color: rgba(165, 42, 42, 0.8);
+  -webkit-transition: all 0.3s ease;
+}
+
+.button {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: #A52A2A;
+    height: 25px;
+    width: 50px;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+}
+
+.button_amazon {
+    margin-top: 15px;
+    color: white;
+    background-color: #ff9913;
+    height: 30px;
+    border-radius: 3px;
+    border: 0;
+    width: 170px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.button_amazon:hover {
+    background-color: #FFCC33;
+}
+
+.map {
+    position: relative;
+}
+.map_canvas {
+    width: 440px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.bibli_list {
+    float: left;
+    width: 100%;
+}
+
+.bibli h2, .bibli h3 {
+    color: #700000;
+}
+
+.bibli h4 {
+    color: #484848;
+}
+
+.bibli_list h3 {
+    color: #700000;
+}
